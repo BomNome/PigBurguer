@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloheader.css">
+    <link rel="stylesheet" href="css/estilogeral.css">
+    <link rel="stylesheet" href="css/estilohome.css">
+    <!--<link rel="stylesheet" href="css/estilomobile.css">-->
+    <title>PigBurguer</title>
+</head>
+<body>
+        <div id="login-box">
+            <div id="login"><a href="#">Login</a></div>
+            <div id="registrar"><a href="#">Registrar</a></div>
+        </div>
+    <!-- HEADER JS >>> js/cabecalho.js -->
+<header-component></header-component>
+
+
+
+    <div class="carrossel">
+        <img class="imagem" src="imagens/imagem1.jpg" alt="Imagem 1">
+        <img class="imagem" src="imagens/imagem2.jpg" alt="Imagem 2">
+        <img class="imagem" src="imagens/imagem3.jpg" alt="Imagem 3">
+        <div class="seta seta-esquerda" onclick="mudarImagem(-1)">&#10094;</div>
+        <div class="seta seta-direita" onclick="mudarImagem(1)">&#10095;</div>
+    </div>
+    <div class="alt_cont">
+        <button onclick="showOne()">Novidades</button>
+        <button onclick="showTwo()">Promoções</button>
+    </div>
+
+    <div class="one" id="page"></div>
+    
+
+    <script src="js/jshome.js"></script>
+    <script src="js/promoANIM.js"></script>
+    <script src="js/cabecalho.js"></script>
+</body>
+</html>
