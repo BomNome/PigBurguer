@@ -1,9 +1,0 @@
-*{margin: 0; padding: 0}
-#justify{
-    display: flex;
-    justify-content: center;
-}
-@font-face {
-    font-family: BebasNeue;
-    src: url(../fonts/Bebas_Neue/BebasNeue.ttf);
-}
