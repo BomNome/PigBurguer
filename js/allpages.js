@@ -20,7 +20,7 @@ class Header extends HTMLElement {
         <link rel="stylesheet" href="css/estilogeral.css">
         <header class="cabecalho-mobile cabecalho">
           <a class="texto cardapio" href="cardapio.html">CARDÁPIO</a>
-          <a href="home.html"><img src="imagens/logotexto.png" alt="Logo" class="logo"></a>
+          <a href="index.html"><img src="imagens/logotexto.png" alt="Logo" class="logo"></a>
           <a class="texto contato" href="contato.html">CONTATO</a>
         </header>
       `;
